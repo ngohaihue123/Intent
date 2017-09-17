@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ngohaihue.project.intent.activity.ResultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Kết Quả Giải Phương Trình Bậc Nhất"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_size_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_top"
+            android:text="Kết Qủa"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_input" />
+
+        <TextView
+
+            android:id="@+id/textResult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/marigin_left"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_input" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorRed"
+        android:text="Quay Lại"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size_input" />
+
+</LinearLayout>
